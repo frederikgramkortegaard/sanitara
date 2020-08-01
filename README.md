@@ -63,10 +63,16 @@ sgd = Pipeline([
 > cd sanitara
 > uvicorn main:app --reload
 ```
+### Testing the Installation
+```bash>
+> curl http://127.0.0.1:8000/api/v1/predict/?message=porn.com
+> {"prediction":1.0,"err":null,"input":"porn.com"}
+# 1.0 is the label for a "not_safe" website.
+```
 
-### Requirements
 
-#### FastAPI
+
+### FastAPI
 FastAPI is a framework designed to serve production quality APIs' without
 to much effort or overhead. We're using this to deploy our machine learning models,
 and automatically generate documentation for our API.
