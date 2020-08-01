@@ -13,10 +13,15 @@ Here are the metrics for our current model:
 
 -> model_0 : 2020-08-01 19:42:40
 
-Dataset: lenght of Training set: 135955, lenght of Test set: 58267
+Dataset:
+ lenght of Training set: 135955
+ lenght of Test set: 58267
+ 
 Test size: 30.0% of dataset
 
-Mean Accuracy: 0.8973346834400261
+Mean Accuracy: 
+ `0.8973346834400261`
+ 
 Metrics:
  
 |   |precision|recall|f1-score|support|
