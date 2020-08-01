@@ -38,7 +38,15 @@ Here are the metrics for our current model:
  - test_score: `[0.92016991 0.98741151 0.95873237 0.96645557 0.61770158]`
  - train_score: `[0.95832717 0.95061045 0.9569952  0.95640309 0.99188431]`
 
+#### Parameters & Pipeline
 
+```python
+sgd = Pipeline([
+        ('vect', CountVectorizer(max_df=1.0, max_features=None, ngram_range=(1,1))),
+        ('tfidf', TfidfTransformer(norm='l1', use_idf=True)),
+        ('sgd', SGDClassifier(max_iter=50, penalty='l2', alpha=1e-05))
+    ])
+```
 
 ## Running the Service
 
