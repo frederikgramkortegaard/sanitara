@@ -54,6 +54,15 @@ sgd = Pipeline([
 // RegEx, Whitelist, Blacklist, External APIs'
 
 ## Running the Service
+```bash
+> git clone https://github.com/frederikgram/sanitara.git
+> cd sanitara
+> python -m venv env
+> ./sanitara/env/Scripts/activate (Depends on system)
+> pip install -r requirements.tx
+> cd sanitara
+> uvicorn main:app --reload
+```
 
 ### Requirements
 
