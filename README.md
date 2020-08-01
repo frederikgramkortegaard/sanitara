@@ -22,8 +22,8 @@ Here are the metrics for our current model:
    - HTTP(S)
  
  - ##### Labels
-   - Not Safe
-   - Safe
+   - Safe (0)
+   - Not Safe (1.0)
  
 #### Test size:
  - `30.0%`
