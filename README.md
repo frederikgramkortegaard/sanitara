@@ -80,4 +80,4 @@ to much effort or overhead. We're using this to deploy our machine learning mode
 and automatically generate documentation for our API.
 
 ## Documentation
-After running the service, as mentioned [here](#run_service)
+After running the service, as mentioned [here](#run_service). It's as simple as navigating to `http://127.0.0.1:8000/docs` to see the documentation as provided by [swagger](https://swagger.io)
