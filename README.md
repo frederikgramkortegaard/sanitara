@@ -2,7 +2,9 @@
 Sanitara is a machine-learning and heuristics based Parental Control system.
 
 ## How it Works
-
+Currently, the service works by exposing an API, in which one can send
+a domain url, and recieve a safety prediction via. a series of 
+data formatting, heuristics and machine learning models.
 
 ### The Models
 As we've now established, a large part of sanitation comes from heuristics, however.  We've also
