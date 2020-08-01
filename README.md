@@ -22,7 +22,7 @@ Here are the metrics for our current model:
    - URL
    - Extension
    - HTTP(S)
- 
+   - External reviews
  - ##### Labels
    - Safe (0)
    - Not Safe (1.0)
