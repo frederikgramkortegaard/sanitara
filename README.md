@@ -21,9 +21,10 @@ Here are the metrics for our current model:
 - ##### Features: `[URL, Extension, HTTP(S), External_Review]`
 - ##### Labels: `[Safe (0), Not Safe (1.0]`
 - ##### Test set percentage: `30.0%`
-### Mean Accuracy: `0.8973346834400261`
+
  
 #### Metrics:
+##### Mean Accuracy: `0.8973346834400261`
 
 |   |precision|recall|f1-score|support|
 |---|---|---|---|---|
