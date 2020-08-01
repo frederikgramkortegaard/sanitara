@@ -12,7 +12,7 @@ data formatting, heuristics and machine learning models.
 As we've now established, a large part of sanitation comes from heuristics, however.  We've also
 developed a model using sklearn to predict how child-friendly a website will be, based on its url.
 
-To do this, we've using an a learn model - the SGD classifier.  We trained it on ~200.000 labeled domain names.\
+To do this, we're using an sklearn model - the SGD classifier.  We trained it on ~200.000 labeled domain names.\
 Here are the metrics for our current model:
 
 
