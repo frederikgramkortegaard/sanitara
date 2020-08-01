@@ -16,12 +16,12 @@ To do this, we've using an a learn model - the SGD classifier.  We trained it on
 Here are the metrics for our current model:
 
 
-#### Dataset {"training_set_length": 135955, "testing_set_length": 58267}
-- #### Features [URL, Extension, HTTP(S), External_Review]
-- ##### Labels [Safe (0), Not Safe (1.0]
+#### Dataset <pre>{"training_set_length": 135955, "testing_set_length": 58267}</pre>
+- #### Features <pre>[URL, Extension, HTTP(S), External_Review]</pre>
+- ##### Labels <pre>[Safe (0), Not Safe (1.0]</pre>
  
-- #### Test size: `30.0%`
-### Mean Accuracy: `0.8973346834400261`
+- #### Test size: <pre>`30.0%`
+### Mean Accuracy: <pre>`0.8973346834400261`</pre>
  
 #### Metrics:
 
