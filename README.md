@@ -1,3 +1,5 @@
+<img src="resources/banner.png" style="width: 200%">
+
 ## About
 Sanitara is a machine-learning and heuristics based Parental Control system.
 
@@ -20,7 +22,7 @@ Here are the metrics for our current model:
  
  - #### Features
    - URL
-   - Extension
+    Extension
    - HTTP(S)
    - External reviews
  - ##### Labels
