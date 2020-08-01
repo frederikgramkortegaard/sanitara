@@ -42,10 +42,10 @@ Here are the metrics for our current model:
 
 ```python
 sgd = Pipeline([
-        ('vect', CountVectorizer(max_df=1.0, max_features=None, ngram_range=(1,1))),
-        ('tfidf', TfidfTransformer(norm='l1', use_idf=True)),
-        ('sgd', SGDClassifier(max_iter=50, penalty='l2', alpha=1e-05))
-    ])
+     ('vect', CountVectorizer(max_df=1.0, max_features=None, ngram_range=(1,1))),
+     ('tfidf', TfidfTransformer(norm='l1', use_idf=True)),
+     ('sgd', SGDClassifier(max_iter=50, penalty='l2', alpha=1e-05))
+])
 ```
 
 ## Running the Service
