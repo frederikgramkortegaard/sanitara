@@ -2,6 +2,8 @@
 
 ## About
 Sanitara is a machine-learning and heuristics based Parental Control system.
+This is a POC developed using the RAD (Rapid Application Development) development method.\
+Thus, not every part will be perfect nor are they going to be.
 
 ## How it Works
 Currently, the service works by exposing an API, in which one can send
