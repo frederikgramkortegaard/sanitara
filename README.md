@@ -58,7 +58,7 @@ sgd = Pipeline([
 > git clone https://github.com/frederikgram/sanitara.git
 > cd sanitara
 > python -m venv env
-> ./sanitara/env/Scripts/activate (Depends on system)
+> ./sanitara/env/Scripts/activate.bat # Depends on system
 > pip install -r requirements.tx
 > cd sanitara
 > uvicorn main:app --reload
