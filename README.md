@@ -54,7 +54,7 @@ sgd = Pipeline([
 ### Heuristics
 // RegEx, Whitelist, Blacklist, External APIs'
 
-(## Running the Service)
+## <a id="run_service">Running the Service</a>
 ```bash
 > git clone https://github.com/frederikgram/sanitara.git
 > cd sanitara
@@ -80,4 +80,4 @@ to much effort or overhead. We're using this to deploy our machine learning mode
 and automatically generate documentation for our API.
 
 ## Documentation
-After running the service, as mentioned [here](##Running the Service) to it so:
+After running the service, as mentioned [here](#run_service)
