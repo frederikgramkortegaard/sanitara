@@ -10,7 +10,7 @@ a domain url, and recieve a safety prediction via. a series of
 data formatting, heuristics and machine learning models.
 
 ### The Models
-As we've now established, a large part of sanitation comes from heuristics, however.  We've also
+A large part of sanitation comes from heuristics, however.  We've also
 developed a model using sklearn to predict how child-friendly a website will be, based on its url.
 
 To do this, we're using an sklearn model - the SGD classifier.  We trained it on ~200.000 labeled domain names.\
