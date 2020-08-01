@@ -17,10 +17,9 @@ Here are the metrics for our current model:
 
 
 #### Dataset `{"training_set_length": 135955, "testing_set_length": 58267}`
-- #### Features `[URL, Extension, HTTP(S), External_Review]`
+- ##### Features `[URL, Extension, HTTP(S), External_Review]`
 - ##### Labels `[Safe (0), Not Safe (1.0]`
- 
-- #### Test size: `30.0%`
+- ##### Test size: `30.0%`
 ### Mean Accuracy: `0.8973346834400261`
  
 #### Metrics:
