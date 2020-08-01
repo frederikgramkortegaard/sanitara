@@ -67,7 +67,8 @@ sgd = Pipeline([
 ```bash>
 > curl http://127.0.0.1:8000/api/v1/predict/?message=porn.com
 > {"prediction":1.0,"err":null,"input":"porn.com"}
-# 1.0 is the label for a "not_safe" website.
+
+  # 1.0 is the label for a "not_safe" website.
 ```
 
 
