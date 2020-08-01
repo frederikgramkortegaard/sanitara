@@ -16,6 +16,15 @@ Here are the metrics for our current model:
  - lenght of Training set: `135955`
  - lenght of Test set: `58267`
  
+ - #### Features
+  - URL
+  - Extension
+  - HTTP(S)
+ 
+ - ##### Labels
+  - Not Safe
+  - Safe
+ 
 #### Test size:
  - `30.0%`
 
