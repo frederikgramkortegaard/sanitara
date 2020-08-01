@@ -17,13 +17,13 @@ Here are the metrics for our current model:
  - lenght of Test set: `58267`
  
  - #### Features
-  - URL
-  - Extension
-  - HTTP(S)
+   - URL
+   - Extension
+   - HTTP(S)
  
  - ##### Labels
-  - Not Safe
-  - Safe
+   - Not Safe
+   - Safe
  
 #### Test size:
  - `30.0%`
