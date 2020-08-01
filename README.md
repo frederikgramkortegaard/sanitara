@@ -13,7 +13,7 @@ As we've now established, a large part of sanitation comes from heuristics, howe
 developed a model using sklearn to predict how child-friendly a website will be, based on its url.
 
 To do this, we're using an sklearn model - the SGD classifier.  We trained it on ~200.000 labeled domain names.\
-Here are the metrics for our current model:
+Here are the information and metrics for our current model:
 
 
 #### Dataset:
