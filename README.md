@@ -57,9 +57,16 @@ sgd = Pipeline([
 ])
 ```
 
+### Heuristics
+// RegEx, Whitelist, Blacklist, External APIs'
+
 ## Running the Service
 
 ### Requirements
 
-### API
+#### FastAPI
+FastAPI is a framework designed to serve production quality APIs' without
+to much effort or overhead. We're using this to deploy our machine learning models,
+and automatically generate documentation for our API.
 
+## Documentation
