@@ -16,10 +16,10 @@ $ cd sanitara
 $ python -m venv env
 $ ./sanitara/env/Scripts/activate.bat # Depends on system
 $ pip install -r requirements.tx
-
+# And then either
 $ cd sanitara
 $ uvicorn main:app --reload
-or
+# or
 $ python start_service.py
 ```
 ### Testing the Installation
