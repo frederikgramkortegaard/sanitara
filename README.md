@@ -11,6 +11,8 @@ Currently, the service works by exposing an API, in which one can send
 a domain name, and recieve a safety prediction via. a series of 
 data formatting, heuristics and machine learning models.
 
+At this time, predictions for both phishing and pornography websites are complete and fully working.
+
 To see detailed metrics and in-depth explanations of how the models are built.
 Take a look at [models.md](./models.md)
 
