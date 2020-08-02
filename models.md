@@ -40,6 +40,6 @@ sgd = Pipeline([
 ])
 ```
 
-### Fishing Prediction
+### Phishing Prediction
 
 WIP
