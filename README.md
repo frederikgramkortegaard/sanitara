@@ -28,7 +28,7 @@ Here are the information and metrics for our current model:
 ##### Mean Accuracy: `0.8973346834400261`
 
 ||Label|precision|recall|f1-score|support|
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 ||0|0.85|0.96|0.90|29133|
 ||1|0.96|0.83|0.89|29134|
 |accuracy||||0.90|58267|
