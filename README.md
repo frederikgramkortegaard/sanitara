@@ -59,6 +59,6 @@ To see detailed metrics and in-depth explanations of how the models are built.
 Take a look at [models.md](./models.md)
 
 
-### Heuristics
-// RegEx, Whitelist, Blacklist, External APIs'
+For an in-depth explanation of how which and how the heuristics are used.
+Take a look at [heuristics.md](./heuristics.md)
 
