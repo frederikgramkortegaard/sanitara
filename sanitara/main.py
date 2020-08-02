@@ -12,7 +12,7 @@ app = FastAPI()
 @app.get("/api/v1/predict/")
 async def root(message: str):
 
-    print(message)
+    print(f"Received input message: {message}")
     return pipelines.predict(message)
 
 
