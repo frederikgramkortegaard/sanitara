@@ -50,6 +50,9 @@ and automatically generate documentation for our API.
 ## Documentation
 After running the service, as mentioned [here](#run_service). It's as simple as navigating to `http://127.0.0.1:8000/docs` to see the documentation as provided by [swagger](https://swagger.io)
 
+### Heuristics
+For an in-depth explanation of which heuristics we use, and how they work. 
+Take a look at [heuristics.md](./heuristics.md)
 
 ### The Models
 A large part of sanitation comes from heuristics, however.  We've also
@@ -57,8 +60,4 @@ developed a model using sklearn to predict how child-friendly a website will be,
 
 To see detailed metrics and in-depth explanations of how the models are built.
 Take a look at [models.md](./models.md)
-
-
-### Heuristics
-// RegEx, Whitelist, Blacklist, External APIs'
 
