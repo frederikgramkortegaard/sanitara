@@ -13,14 +13,7 @@ def clean_message(message: str) -> str:
         and makes it useable for prediction'
     """
 
-    out = dict()
-
-    ## Regex sanitation
-    m = re.match(regex.url_sanitizer, message)
-    if m.group(1) != None:
-        message = m.group(1)
-    
-    return message
+    raise NotImplementedError()    
 
 
 def predict(message: str) -> Dict:
@@ -37,7 +30,7 @@ def predict(message: str) -> Dict:
     }
 
     try:
-        message = clean_message(message)
+        #message = clean_message(message)
         out['prediction'] = machines.predict(model, message)
     except Exception as e:
         out['err'] = str(e)

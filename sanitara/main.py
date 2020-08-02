@@ -11,4 +11,6 @@ app = FastAPI()
 
 @app.get("/api/v1/predict/")
 async def root(message: str):
+
+    print(message)
     return pipelines.predict(message)
