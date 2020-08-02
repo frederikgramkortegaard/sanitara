@@ -27,13 +27,13 @@ Here are the information and metrics for our current model:
 #### Metrics:
 ##### Mean Accuracy: `0.8973346834400261`
 
-|   |precision|recall|f1-score|support|
+||Label|precision|recall|f1-score|support|
 |---|---|---|---|---|
-|0|0.85|0.96|0.90|29133|
-|1|0.96|0.83|0.89|29134|
-|accuracy|||0.90|58267|
-|macro avg|0.90|0.90|0.90|58267|
-|weighted avg|0.90|0.90|0.90|58267|
+||0|0.85|0.96|0.90|29133|
+||1|0.96|0.83|0.89|29134|
+|accuracy||||0.90|58267|
+|macro avg||0.90|0.90|0.90|58267|
+|weighted avg||0.90|0.90|0.90|58267|
 
 ##### Cross Validation:
  - fit_time: `[1.37127185 1.92903113 1.43998051 1.51016569 1.28997445]`
