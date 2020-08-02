@@ -39,7 +39,3 @@ sgd = Pipeline([
      ('sgd', SGDClassifier(max_iter=50, penalty='l2', alpha=1e-05))
 ])
 ```
-
-### Phishing Prediction
-
-WIP
