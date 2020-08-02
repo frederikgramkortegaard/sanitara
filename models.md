@@ -11,7 +11,7 @@ To perform machine learning based predictions for our project, we're using an sk
 
  
 #### Metrics:
-    Mean Accuracy: 0.8973346834400261
+    - Mean Accuracy: 0.8973346834400261
 
 ||Label|precision|recall|f1-score|support|
 |---|---|---|---|---|---|
