@@ -11,6 +11,7 @@ data formatting, heuristics and machine learning models.
 
 To see detailed metrics and in-depth explanations of how the models are built.
 Take a look at [models.md](./models.md)
+
 For an in-depth explanation of which heuristics we use, and how they work. 
 Take a look at [heuristics.md](./heuristics.md)
 
