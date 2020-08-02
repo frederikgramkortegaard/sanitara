@@ -8,7 +8,7 @@ This is a PoC developed using the RAD (Rapid Application Development) method. Be
 
 ## How it Works
 Currently, the service works by exposing an API, in which one can send
-a domain url, and recieve a safety prediction via. a series of 
+a domain name, and recieve a safety prediction via. a series of 
 data formatting, heuristics and machine learning models.
 
 To see detailed metrics and in-depth explanations of how the models are built.
