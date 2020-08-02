@@ -14,7 +14,7 @@ data formatting, heuristics and machine learning models.
 $ git clone https://github.com/frederikgram/sanitara.git
 $ cd sanitara
 $ python -m venv env
-$ ./sanitara/env/Scripts/activate.bat # Depends on system
+$ ./env/Scripts/activate.bat # Depends on system
 $ pip install -r requirements.tx
 $ python start_service.py
 ```
