@@ -1,7 +1,5 @@
-To predict whether or not a given url will direct to a website containing pornography, we're using an sklearn model - the SGD classifier.  Which we've trained on ~200.000 labeled domain names.  Here are the information and metrics for our current models:
-
-
 ### Pornography Prediction
+To predict whether or not a given url will direct to a website containing pornography, we're using an sklearn model - the SGD classifier.  Which we've trained on ~200.000 labeled domain names.  Here are the information and metrics for our current models:
 
 #### Dataset:
     - Size: {"training_set_length": 135955, "testing_set_length": 58267}
