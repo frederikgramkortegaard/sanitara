@@ -14,3 +14,5 @@ async def root(message: str):
 
     print(message)
     return pipelines.predict(message)
+
+

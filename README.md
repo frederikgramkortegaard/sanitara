@@ -20,27 +20,26 @@ $ python start_service.py
 ```
 ### Testing the Installation
 ```bash
-$ curl http://127.0.0.1:8000/api/v1/predict/?message=porn.com
-$ {
+$ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.pornhub.com
+>>>
+{
   "predictions": [
     {
-      "name": "porn",
-      "prediction": 1,
+      "name": "phishing",
+      "prediction": 0,
       "err": null,
-      "input": "pornhub"
     },
     {
-      "name": "phishing",
-      "prediction": null,
-      "err": "Model is None",
-      "input": "pornhub"
+      "name": "pornography",
+      "prediction": 1,
+      "err": null,
     }
   ],
   "err": null,
-  "input": "pornhub"
+  "input": "https://www.pornhub.com"
 }
 
-  # 1.0 is the label for a "not_safe" website.
+  # 1.0 is the label for a website that is not safe.
 ```
 
 ### FastAPI

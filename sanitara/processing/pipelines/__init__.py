@@ -5,8 +5,8 @@ from typing import Dict
 
 from processing.heuristics import regex
 from processing import machines
+from processing.machines.models import *
 
-model = machines.load_model()
 
 def clean_message(message: str) -> str:
     """ Cleans input message 
@@ -15,6 +15,22 @@ def clean_message(message: str) -> str:
 
     raise NotImplementedError()    
 
+def _predict(model, message: str, name: str) -> Dict:
+    out = {
+        "name": name,
+        "prediction": None,
+        "err": None
+    }
+
+    if model == None:
+        out['err'] = "Model is None"
+    else: 
+        try:
+            out['prediction'] = machines.predict(model, message)
+        except Exception as e:
+            out['err'] = str(e)
+
+    return out
 
 def predict(message: str) -> Dict:
     """ Combination of every required
@@ -22,17 +38,21 @@ def predict(message: str) -> Dict:
         returns a final prediction
     """
 
-    result = None
     out = {
-        "prediction": None,
+        "predictions": None,
         "err": None,
         "input": message
     }
+    print(_predict(pornography_detection_model, message, "porn"))
 
     try:
-        #message = clean_message(message)
-        out['prediction'] = machines.predict(model, message)
+        out['predictions'] = [
+            _predict(pornography_detection_model, message, "porn"),
+            _predict(phishing_detection_model, message, "phishing")
+        ]
     except Exception as e:
         out['err'] = str(e)
+
+    print(out)
 
     return out

@@ -22,7 +22,7 @@ from sklearn.pipeline import Pipeline
 from sklearn import metrics
 
 # Load data
-df = pd.read_csv("../../../data/data.csv",  sep='\s*,\s*', nrows=200000)
+df = pd.read_csv("../../../data/pornography_url_data.csv",  sep='\s*,\s*', nrows=200000)
 
 # Clean data
 df['label'] = df['label'].astype('str')
@@ -49,7 +49,7 @@ for test_size in [0.3]:
 
     # Evaluate & Save Model
     metric = metrics.classification_report(y_test, predicted, target_names=["0", "1"])
-    new_model_name = f"model_{len(list(filter(lambda x: 'model_' in x, os.listdir())))}"
+    new_model_name = f"model_pornography_{len(list(filter(lambda x: 'model_pornography_' and '.joblib' in x, os.listdir())))}"
 
     cross_validation = cross_validate(text_clf, df['name'], df['label'], return_train_score=True)
     
