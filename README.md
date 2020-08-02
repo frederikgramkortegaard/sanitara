@@ -9,15 +9,10 @@ This is a PoC developed using the RAD (Rapid Application Development) method. Be
 ## How it Works
 Currently, the service works by exposing an API, in which one can send
 a domain name, and recieve a safety prediction via. a series of 
-data formatting, heuristics and machine learning models.
-
-At this time, predictions for both phishing and pornography websites are complete and fully working.
+data formatting, heuristics and machine learning models.  At this time, predictions for both phishing and pornography websites are complete and fully working.
 
 To see detailed metrics and in-depth explanations of how the models are built.
-Take a look at [models.md](./models.md)
-
-For an in-depth explanation of which heuristics we use, and how they work. 
-Take a look at [heuristics.md](./heuristics.md)
+Take a look at [models.md](./models.md)  and for an explanation of which heuristics we use [heuristics.md](./heuristics.md)
 
 ## <a id="run_service">Running the Service</a>
 ```bash
