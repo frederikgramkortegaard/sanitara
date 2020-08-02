@@ -15,7 +15,7 @@ To see detailed metrics and in-depth explanations of how the models are built ch
 
 ## <a id="run_service">Running the Service</a>
 
-> :warning: **these are predictions, not facts**: not every result will be correct.
+:warning: **these are predictions, not facts**: not every result will be correct.
 
 ```bash
 $ git clone https://github.com/frederikgram/sanitara.git
