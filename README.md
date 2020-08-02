@@ -29,18 +29,28 @@ $ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.pornhub.com
 {
   "predictions": [
     {
-      "name": "phishing",
-      "prediction": 0,
-      "err": null,
-    },
-    {
       "name": "pornography",
       "prediction": 1,
-      "err": null,
+      "err": null
+    },
+    {
+      "name": "phishing",
+      "prediction": null,
+      "err": "Model is None"
+    },
+    {
+      "name": "whitelist",
+      "prediction": 0,
+      "err": null
+    },
+    {
+      "name": "blacklist",
+      "prediction": 1,
+      "err": null
     }
   ],
   "err": null,
-  "input": "https://www.pornhub.com"
+  "input": "pornhub"
 }
 
   # 1.0 is the label for a website that is not safe.
