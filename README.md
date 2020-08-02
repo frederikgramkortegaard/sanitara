@@ -30,30 +30,28 @@ $ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.pornhub.com
   "predictions": [
     {
       "name": "pornography",
-      "prediction": 1,
+      "prediction": 1,     # is pornography
       "err": null
     },
     {
       "name": "phishing",
-      "prediction": null,
+      "prediction": 0,     # is not a phishing website
       "err": "Model is None"
     },
     {
       "name": "whitelist",
-      "prediction": 0,
+      "prediction": 0,     # was not found in whitelist
       "err": null
     },
     {
       "name": "blacklist",
-      "prediction": 1,
+      "prediction": 1,     # was found in blacklist
       "err": null
     }
   ],
   "err": null,
   "input": "pornhub"
 }
-
-  # 1.0 is the label for a website that is not safe.
 ```
 
 ### FastAPI
