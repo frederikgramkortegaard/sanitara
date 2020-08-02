@@ -1,7 +1,8 @@
 <img src="resources/banner.png" style="width: 200%">
 
 ## About
-Sanitara is a machine-learning and heuristics based Parental Control system.
+Sanitara is a machine-learning and heuristics based Parental Control System, designed to give the user a prediction
+about a given domain names child-friendlyness.
 This is a PoC developed using the RAD (Rapid Application Development) method. Thus, not every part is perfect and won't ever be.
 
 ## How it Works
