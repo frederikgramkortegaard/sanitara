@@ -50,7 +50,7 @@ $ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.pornhub.com
     }
   ],
   "err": null,
-  "input": "pornhub"
+  "input": "https://www.pornhub.com"
 }
 ```
 
