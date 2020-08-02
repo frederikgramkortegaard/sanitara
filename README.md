@@ -11,18 +11,18 @@ data formatting, heuristics and machine learning models.
 
 ## <a id="run_service">Running the Service</a>
 ```bash
-> git clone https://github.com/frederikgram/sanitara.git
-> cd sanitara
-> python -m venv env
-> ./sanitara/env/Scripts/activate.bat # Depends on system
-> pip install -r requirements.tx
-> cd sanitara
-> uvicorn main:app --reload
+$ git clone https://github.com/frederikgram/sanitara.git
+$ cd sanitara
+$ python -m venv env
+$ ./sanitara/env/Scripts/activate.bat # Depends on system
+$ pip install -r requirements.tx
+$ cd sanitara
+$ uvicorn main:app --reload
 ```
 ### Testing the Installation
 ```bash>
-> curl http://127.0.0.1:8000/api/v1/predict/?message=porn.com
-> {"prediction":1.0,"err":null,"input":"porn.com"}
+$ curl http://127.0.0.1:8000/api/v1/predict/?message=porn.com
+$ {"prediction":1.0,"err":null,"input":"porn.com"}
 
   # 1.0 is the label for a "not_safe" website.
 ```
