@@ -41,7 +41,7 @@ A large part of sanitation comes from heuristics, however.  We've also
 developed a model using sklearn to predict how child-friendly a website will be, based on its url.
 
 To see detailed metrics and in-depth explanations of how the models are built.
-Look at [models.](./models.md)
+Take a look at [models.md](./models.md)
 
 
 ### Heuristics
