@@ -21,7 +21,24 @@ $ python start_service.py
 ### Testing the Installation
 ```bash
 $ curl http://127.0.0.1:8000/api/v1/predict/?message=porn.com
-$ {"prediction":1.0,"err":null,"input":"porn.com"}
+$ {
+  "predictions": [
+    {
+      "name": "porn",
+      "prediction": 1,
+      "err": null,
+      "input": "pornhub"
+    },
+    {
+      "name": "phishing",
+      "prediction": null,
+      "err": "Model is None",
+      "input": "pornhub"
+    }
+  ],
+  "err": null,
+  "input": "pornhub"
+}
 
   # 1.0 is the label for a "not_safe" website.
 ```
