@@ -19,7 +19,7 @@ docs_build
 venv
 docs.zip
 archive.zip
-*.csv
+sanitara/data/top10milliondomains.csv
 
 # vim temporary files
 *~
