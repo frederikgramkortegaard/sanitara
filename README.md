@@ -14,6 +14,9 @@ data formatting, heuristics and machine learning models.  At this time, predicti
 To see detailed metrics and in-depth explanations of how the models are built check out [models.md](./models.md). And for an explanation of which heuristics we use go to [heuristics.md](./heuristics.md)
 
 ## <a id="run_service">Running the Service</a>
+
+> :warning: **these are predictions, not facts**: not every result will be correct.
+
 ```bash
 $ git clone https://github.com/frederikgram/sanitara.git
 $ cd sanitara
