@@ -51,7 +51,7 @@ and automatically generate documentation for our API.
 After running the service, as mentioned [here](#run_service). It's as simple as navigating to `http://127.0.0.1:8000/docs` to see the documentation as provided by [swagger](https://swagger.io)
 
 ### Heuristics
-For an in-depth explanation of how which and how the heuristics are used.
+For an in-depth explanation of which heuristics we use, and how they work. 
 Take a look at [heuristics.md](./heuristics.md)
 
 ### The Models
