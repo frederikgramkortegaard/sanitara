@@ -1,5 +1,5 @@
 # About
-For the service, we use machine-learning based predictions were we decided it makes sense. This means that not _everything_ benefits from expensive traning. And has resultet in us using heuristics such as large datasets of known websites - external ratings and RegEx patterns as a first-defence against unwanted websites.
+For the service, we use machine-learning based predictions were we decided it makes sense. Not _everything_ benefits from expensive traning. And has resultet in us using heuristics such as large datasets of known websites - external ratings and RegEx patterns as a first-defence against unwanted websites.
 
 # Lookup Tables
 
