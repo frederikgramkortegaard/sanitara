@@ -38,5 +38,5 @@ to configure the system, currently we're using a cli process. However, the devel
 
 --allow-requests # Used to allow a user to request access from
                  # whoever is listed as the administrator
-                 # using sms or the online GUI
+                 # using SMS or the online GUI
 ```
