@@ -64,3 +64,28 @@ and automatically generate documentation for our API.
 
 ## Documentation
 After running the service, as mentioned [here](#run_service). It's as simple as navigating to `http://127.0.0.1:8000/docs` to see the documentation as provided by [swagger](https://swagger.io)
+
+### Command line Arguments
+
+to configure the system, currently we're using a cli process. However, the development of a non-technical GUI solution is in the works.  Seen here, is a list of command line arguments used to configure the system:
+
+:warning: **Work-in-Progress** Currently, the following command line arguments do _not_ work.
+
+```
+--deny-all
+--allow-
+    pornography
+    whitelist
+    blacklist
+    ...
+--allow-only-
+    pornography
+    whitelist
+    blacklist
+    ...
+--verbose        # Used for debug purposes
+
+--allow-requests # Used to allow a user to request access from
+                 # whoever is listed as the administrator
+                 # using SMS or the online GUI
+```
