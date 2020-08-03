@@ -15,28 +15,3 @@ Furthermore, we support custom white- and blacklist functionality - allowing par
 To edit the aforementioned lists, currently you need to go to\
 ```"/sanitara/sanitara/data/"``` and edit the files
 ```whitelist.csv / blacklist.csv```
-
-# Command line Arguments
-
-to configure the system, currently we're using a cli process. However, the development of a non-technical GUI solution is in the works.  Seen here, is a list of command line arguments used to configure the system:
-
-:warning: **Work-in-Progress** Currently, the following command line arguments do _not_ work.
-
-```
---deny-all
---allow-
-    pornography
-    whitelist
-    blacklist
-    ...
---allow-only-
-    pornography
-    whitelist
-    blacklist
-    ...
---verbose        # Used for debug purposes
-
---allow-requests # Used to allow a user to request access from
-                 # whoever is listed as the administrator
-                 # using SMS or the online GUI
-```
