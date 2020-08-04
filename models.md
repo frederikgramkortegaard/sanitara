@@ -29,7 +29,7 @@ To predict whether or not a given domain name will direct to a website containin
     - train_score: [0.95832717 0.95061045 0.9569952  0.95640309 0.99188431] 
 
 #### Parameters & Pipeline
-
+:speech_balloon: The following parameters were found using sklearns' GridSearchCV functionality.
 ```python
 sgd = Pipeline([
      ('vect', CountVectorizer(max_df=1.0, max_features=None, ngram_range=(1,1))),
