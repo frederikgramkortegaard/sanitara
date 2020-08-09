@@ -38,7 +38,7 @@ $ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.pornhub.com
     {
       "name": "phishing",
       "prediction": 0,     # is not a phishing website
-      "err": "Model is None"
+      "err": null
     },
     {
       "name": "whitelist",
