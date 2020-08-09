@@ -78,9 +78,7 @@ to configure the system, currently we're using a cli process. However, the devel
     blacklist
     ...
 --allow-only-
-    pornography
     whitelist
-    blacklist
     ...
 --verbose        # Used for debug purposes
 
