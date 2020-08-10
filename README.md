@@ -19,10 +19,10 @@ To see detailed metrics and in-depth explanations of how the models are built ch
 ```bash
 $ git clone https://github.com/frederikgram/sanitara.git
 $ cd sanitara
-$ python -m venv env
-$ ./env/Scripts/activate.bat # Depends on system
-$ pip install -r requirements.tx
-$ python start_service.py
+$ python -m venv venv
+$ ./env/Scripts/activate
+(venv) pip install -r requirements.tx
+(venv) python start_service.py
 ```
 ### Testing the Installation
 ```bash
