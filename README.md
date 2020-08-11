@@ -1,5 +1,7 @@
 <img src="resources/banner.png" style="width: 200%">
 
+ :bookmark: [Fast forward to the predictive models](./models.md)
+
 ## About
 Sanitara is a machine-learning and heuristics based Parental Control System, designed to give the user a prediction
 about a given domain names' child-friendliness.
