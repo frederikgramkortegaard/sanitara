@@ -15,3 +15,6 @@ Furthermore, we support custom white- and blacklist functionality - allowing par
 To edit the aforementioned lists, currently you need to go to\
 ```"/sanitara/sanitara/data/"``` and edit the files
 ```whitelist.csv / blacklist.csv```
+
+# ReGex
+As for the white- and blacklist functionality, we also support ReGex and keyword based filtering.
