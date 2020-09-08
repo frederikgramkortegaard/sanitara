@@ -54,12 +54,12 @@ $ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.badwebsite.com
     },
     {
     "name": "regex",
-    "prediction": False,   # did not match any given regex pattern
+    "prediction": 0,       # did not match any given regex pattern
     "err": null
     },
     {
     "name": "keyword",
-    "prediction": False,   # did not match any given keywords
+    "prediction": 0,       # did not match any given keywords
     "err": null
     }
   ],
