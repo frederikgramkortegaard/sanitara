@@ -100,7 +100,8 @@ to configure the system, currently we're using a cli process. However, the devel
 --ensemble       # Takes the mean of every metric, if the resulting
                  # value is >= 0.5, the domain will be disallowed.
 
---(allow or disallow)-requests # Used to allow a user to request access from
+--(allow or disallow)-requests 
+                 # Used to allow a user to request access from
                  # whoever is listed as the administrator
                  # using SMS or the online GUI
 ```
