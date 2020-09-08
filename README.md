@@ -28,18 +28,18 @@ $ ./env/Scripts/activate
 ```
 ### Testing the Installation
 ```bash
-$ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.pornhub.com
+$ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.badwebsite.com
 >>>
 {
   "predictions": [
     {
       "name": "pornography",
-      "prediction": 1,     # is pornography
+      "prediction": 0,     # is not pornography
       "err": null
     },
     {
       "name": "phishing",
-      "prediction": 0,     # is not a phishing website
+      "prediction": 1,     # is a phishing website
       "err": null
     },
     {
@@ -51,10 +51,20 @@ $ curl http://127.0.0.1:8000/api/v1/predict/?message=https://www.pornhub.com
       "name": "blacklist",
       "prediction": 1,     # was found in blacklist
       "err": null
+    },
+    {
+    "name": "regex",
+    "prediction": False,   # did not match any given regex pattern
+    "err": null
+    },
+    {
+    "name": "keyword",
+    "prediction": False,   # did not match any given keywords
+    "err": null
     }
   ],
   "err": null,
-  "input": "https://www.pornhub.com"
+  "input": "https://www.badwebsite.com"
 }
 ```
 
