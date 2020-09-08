@@ -89,7 +89,7 @@ to configure the system, currently we're using a cli process. However, the devel
 --(add or remove)-regex     # Adds a regex pattern to the blacklist
 --(add or remove)-keyword   # Adds a keyword to the blacklist
 
---allow-
+--(allow or disallow)-
     pornography
     whitelist
     blacklist
@@ -100,7 +100,7 @@ to configure the system, currently we're using a cli process. However, the devel
 --ensemble       # Takes the mean of every metric, if the resulting
                  # value is >= 0.5, the domain will be disallowed.
 
---allow-requests # Used to allow a user to request access from
+--(allow or disallow)-requests # Used to allow a user to request access from
                  # whoever is listed as the administrator
                  # using SMS or the online GUI
 ```
