@@ -83,15 +83,18 @@ to configure the system, currently we're using a cli process. However, the devel
 :warning: **Work-in-Progress** Currently, the following command line arguments do _not_ work.
 
 ```
---deny-all
+
+--(add or remove)-whitelist # Adds a website to the whitelist
+--(add or remove)-blacklist # Adds a website to the blacklist
+--(add or remove)-regex     # Adds a regex pattern to the blacklist
+--(add or remove)-keyword   # Adds a keyword to the blacklist
+
 --allow-
     pornography
     whitelist
     blacklist
     ...
---allow-only-
-    whitelist
-    ...
+
 --verbose        # Used for debug purposes
 
 --ensemble       # Takes the mean of every metric, if the resulting
