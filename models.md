@@ -1,8 +1,8 @@
 ### Pornography Prediction
 To predict whether or not a given domain name will direct to a website containing pornography, we're using an sklearn model - the SGD classifier (besides our heuristics system).  Which we've trained on ~200.000 labeled domain names.  Here are the information and metrics for our current models:
 
-:bookmark: Note: This was done in 24 hours, and with further refinement of the model
-we expect the f-score to increase by another four points.
+:speech_balloon: Note: This was done in 24 hours, 
+and with further refinement of the model we expect the f-score to increase by another four points.
 #### Dataset:
 ```json
 {
