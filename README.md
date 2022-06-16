@@ -75,33 +75,3 @@ and automatically generate documentation for our API.
 
 ## Documentation
 After running the service, as mentioned [here](#run_service). It's as simple as navigating to `http://127.0.0.1:8000/docs` to see the documentation as provided by [swagger](https://swagger.io)
-
-### Command line Arguments
-
-to configure the system, currently we're using a cli process. However, the development of a non-technical GUI solution is in the works.  Seen here, is a list of command line arguments used to configure the system:
-
-:warning: **Work-in-Progress** Currently, the following command line arguments do _not_ work.
-
-```
-
---(add or remove)-whitelist # Adds a website to the whitelist
---(add or remove)-blacklist # Adds a website to the blacklist
---(add or remove)-regex     # Adds a regex pattern to the blacklist
---(add or remove)-keyword   # Adds a keyword to the blacklist
-
---(allow or disallow)-
-    pornography
-    whitelist
-    blacklist
-    ...
-
---verbose        # Used for debug purposes
-
---ensemble       # Takes the mean of every metric, if the resulting
-                 # value is >= 0.5, the domain will be disallowed.
-
---(allow or disallow)-requests 
-                 # Used to allow a user to request access from
-                 # whoever is listed as the administrator
-                 # using SMS or the online GUI
-```
